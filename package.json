@@ -14,8 +14,7 @@
     "build": "tsc",
     "build:watch": "tsc -w",
     "// ------ LINTING ----- //": "",
-    "lint:list": "eslint */**/*.js --fix",
-    "lint": "eslint */**/*.js --fix",
+    "lint": "eslint --fix --ext js,ts ./src",
     "// ------ PRODUCTION ----- //": "",
     "start:prod": "nodemon src/index.ts"
   },
@@ -44,4 +43,3 @@
     "prettier": "^1.16.4"
   }
 }
-

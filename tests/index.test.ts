@@ -1,6 +1,6 @@
 /* eslint @typescript-eslint/explicit-function-return-type: 0 */
 
-import { add } from './index';
+import { add } from '../src';
 
 describe('add', () => {
   test('should add 2 numbers', () => {
